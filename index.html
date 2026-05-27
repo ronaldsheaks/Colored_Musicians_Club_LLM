@@ -3,18 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Colored Musicians Club LLM Research App</title>
+  <title>CMC Research App</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="hero">
     <div>
       <p class="eyebrow">Buffalo • Local 533 • Michigan Street Corridor</p>
-      <h1>Colored Musicians Club LLM Research App</h1>
-      <p class="lede">A transcript-driven dashboard for extracting people, institutions, and urban studies concepts from Colored Musicians Club video material.</p>
+      <h1>CMC Research App</h1>
+      <p class="lede">A transcript-driven dashboard for organizing people, institutions, and urban studies concepts from the video material.</p>
       <div class="hero-actions">
-        <a href="#llm" class="button primary">Open LLM workspace</a>
-        <a href="data/cmc-data.json" class="button secondary">View JSON dataset</a>
+        <a href="data/cmc-data.json" class="button primary">View JSON dataset</a>
       </div>
     </div>
   </header>
@@ -24,7 +23,7 @@
       <div>
         <h2>Research frame</h2>
         <p id="sourceNote"></p>
-        <p>The working interpretation treats the Colored Musicians Club and Local 533 as Black cultural, labor, and governance infrastructure—not just as a music venue.</p>
+        <p>This working layer organizes the club, Local 533, and related corridor evidence as labor, culture, preservation, and memory infrastructure.</p>
       </div>
       <div class="stat-grid">
         <div class="stat"><span id="videoCount">0</span><small>Video/segment summaries</small></div>
@@ -59,22 +58,6 @@
         <h2>Key institutions</h2>
         <div id="institutionTable" class="table-wrap"></div>
       </div>
-    </section>
-
-    <section id="llm" class="panel llm-panel">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">LLM workspace</p>
-          <h2>Prompt builder + optional local model call</h2>
-        </div>
-        <button id="copyPrompt" class="button secondary">Copy prompt</button>
-      </div>
-      <textarea id="promptBox" rows="14"></textarea>
-      <div class="llm-controls">
-        <button id="runModel" class="button primary">Run local LLM extraction</button>
-        <span class="hint">Requires <code>npm start</code> and a local <code>.env</code> API key. GitHub Pages mode still works as a dashboard.</span>
-      </div>
-      <pre id="llmOutput" class="output">Model output will appear here.</pre>
     </section>
   </main>
 
