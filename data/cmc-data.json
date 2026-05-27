@@ -1,0 +1,100 @@
+{
+  "projectTitle": "Colored Musicians Club LLM Research App",
+  "sourceNote": "Transcript-derived working dataset from uploaded ColoredMusiciansClub.txt. Duplicate CMC museum-history transcript sections collapsed for analysis.",
+  "videos": [
+    {
+      "id": "local533-forced-integration",
+      "title": "Local 533 / Forced Integration / CMC Historical Argument",
+      "sourceUrl": "https://www.youtube.com/watch?v=WWzcuvYOkRY",
+      "summary": "This segment argues that Local 533 functioned as a Black musicians' union and community-support institution under segregation. It emphasizes mutual aid, philanthropy, financial independence, cultural preservation, and the negative consequences of forced merger with white Local 43 into Local 92. It also compares Buffalo with Pittsburgh and San Francisco musician-union histories.",
+      "keyFindings": [
+        "Local 533 provided mutual aid and community service through benefit dances and charitable performances.",
+        "The 1969 AFM-mandated merger with Local 43 produced loss of voice, employment access, and institutional control for Black musicians.",
+        "Black musicians retained the Colored Musicians Club as a separate cultural and organizational space after the union merger.",
+        "The transcript explicitly links Buffalo to Pittsburgh Local 471/Local 60 and San Francisco musician-union histories."
+      ]
+    },
+    {
+      "id": "buffalo-soul-news4",
+      "title": "Buffalo Soul: The Legacy Plays On",
+      "sourceUrl": "https://www.youtube.com/watch?v=Rhcll5j-gBg",
+      "summary": "This documentary frames jazz as music born from struggle and situates the CMC within Buffalo's African American freedom history. It describes Michigan Street Baptist Church, Local 533, the rise of Buffalo as a jazz town, the CMC's jam-session culture, urban renewal disruption, and post-merger employment loss.",
+      "keyFindings": [
+        "CMC operated near Michigan Street Baptist Church, linking freedom history and music culture.",
+        "Buffalo had a strong nightclub ecology including Little Harlem, Moonglow, and Town Casino.",
+        "Urban renewal and changing music markets weakened the older Black jazz infrastructure.",
+        "Post-merger Local 92 did not deliver equal access to work for many Black musicians."
+      ]
+    },
+    {
+      "id": "buffalo-black-community-preservation",
+      "title": "Buffalo Black Community, Michigan Street Preservation Area, and Heritage Tourism",
+      "sourceUrl": "https://www.youtube.com/watch?v=X1SKb4ZVweI&t=302s",
+      "summary": "This segment places the CMC in the broader Black urban history of Buffalo: industrial opportunity, Black working-class life, Black women leaders, Uncrowned Queens, Michigan Street Baptist Church, Nash House, and the Michigan Street Preservation Area. It emphasizes preservation, authenticity, cultural tourism, and intergenerational memory.",
+      "keyFindings": [
+        "Buffalo's industrial economy attracted African Americans seeking paid hourly work, though many jobs remained racially constrained.",
+        "Michigan Street Baptist Church and Nash House are presented as preservation anchors tied to freedom and civil-rights memory.",
+        "The Michigan Street Preservation Area links CMC, the church, and Nash House as a Black heritage corridor.",
+        "The transcript frames authenticity as central to heritage tourism."
+      ]
+    },
+    {
+      "id": "cmc-museum-history",
+      "title": "Colored Musicians Club Museum History Segment",
+      "sourceUrl": "https://www.youtube.com/watch?v=sgSPONr-Gbg",
+      "summary": "This segment gives a chronological museum-style history from Buffalo's industrial rise and Pan-American Exposition through Local 533's founding, Prohibition-era nightlife, touring circuits, the CMC's 1934/1935 building and charter period, the 1969 merger, and the club's 1979 landmark status.",
+      "keyFindings": [
+        "Buffalo's Black civil-rights history is tied to Mary B. Talbert, W.B. Du Bois, the Niagara Movement, and NAACP origins.",
+        "Local 533 was founded in 1917 because Local 43 and AFM segregation barred Black musicians from good-paying downtown work.",
+        "Buffalo became a stop on a performance circuit linking Kansas City, Chicago, Detroit, New York, Europe, and national tours.",
+        "Local 533 created institutional benefits including a credit union, life memberships, and life-insurance benefits."
+      ]
+    }
+  ],
+  "people": [
+    {"name":"Clara Cavette / Clivette","role":"Former assistant secretary; mutual aid beneficiary","notes":"Illness in 1930 led Local 533 to hold a 1931 benefit dance for her and family.","confidence":"Medium - caption noisy"},
+    {"name":"Willie J. Dorsey","role":"Former Local 533 member","notes":"Testified that Local 92 was cliquish, jobs went to white musicians, and Black musicians lacked vote/employment power.","confidence":"High"},
+    {"name":"Rick McRae / Richard McKay","role":"Historian / article author","notes":"Summarized and extended CMC/Local 533 history; spelling should be verified.","confidence":"Medium"},
+    {"name":"Anthony Piccolo","role":"Former Local 43 member","notes":"Discussed merger resistance, treasury concerns, and musical differences between locals.","confidence":"Medium"},
+    {"name":"Conrad Topher Jr.","role":"White musician associated with Local 533","notes":"Discussed why he joined Local 533 and racism among some Local 43 members; argued understanding jazz undermines racism.","confidence":"Medium"},
+    {"name":"Dodo Greene","role":"Singer / cultural voice","notes":"Connects soul/jazz to slavery, chanting, survival, and spiritual expression.","confidence":"High"},
+    {"name":"Boyd Lee Dunlop","role":"Buffalo jazz musician","notes":"Connects jazz/blues to poverty, lived experience, and Black musical identity.","confidence":"High"},
+    {"name":"Mary B. Talbert","role":"Civil-rights organizer and intellectual","notes":"Led Pan-American Exposition protests and helped form Niagara Movement context.","confidence":"High"},
+    {"name":"W.B. Du Bois","role":"Civil-rights intellectual","notes":"Connected to Niagara Movement and later NAACP principles.","confidence":"High"},
+    {"name":"Jesse Clipper","role":"Local 533 founder; WWI soldier","notes":"Named as a founder and first colored soldier from Buffalo killed in World War I.","confidence":"High"},
+    {"name":"Dr. Felix Armfield","role":"Buffalo State historian","notes":"Provides context on Black working-class Buffalo and racialized labor roles.","confidence":"High"},
+    {"name":"Dr. Peggy Brooks-Bertram","role":"Uncrowned Queens founder/scholar","notes":"Documents African American women's contributions to Buffalo community building.","confidence":"High"},
+    {"name":"Dr. Barbara Nevergold","role":"Uncrowned Queens founder/scholar","notes":"Connects archival photographs and Black women’s history to public memory.","confidence":"High"},
+    {"name":"Bishop William Henderson","role":"Michigan Street Baptist Church caretaker","notes":"Discusses restoration and preservation of the church as freedom landmark.","confidence":"High"},
+    {"name":"Robert Russell","role":"Buffalo City Court judge; preservation board member","notes":"Frames Michigan Street Baptist Church as tourism centerpiece and national history site.","confidence":"High"},
+    {"name":"Rev. J. Edward Nash Sr.","role":"Michigan Street Baptist Church leader","notes":"Nash House archive contains books, papers, and letters linked to civil-rights struggle.","confidence":"High"}
+  ],
+  "institutions": [
+    {"name":"Colored Musicians Club","type":"Cultural institution / social club / museum","relevance":"Core Black cultural and governance anchor; preserved Local 533's legacy after merger.","concepts":["institutional continuity","cultural memory","jazz infrastructure","heritage preservation"]},
+    {"name":"Local 533","type":"Black musicians' union","relevance":"Labor governance institution founded in 1917 for Black musicians excluded by white Local 43.","concepts":["labor self-governance","mutual aid","union access","segregated institution"]},
+    {"name":"Local 43","type":"White musicians' union","relevance":"Segregated Buffalo musicians' union that excluded Black musicians from good downtown jobs.","concepts":["racial exclusion","gatekeeping","labor market segmentation"]},
+    {"name":"Local 92","type":"Integrated post-merger union","relevance":"Formed after the 1969 merger; transcript frames it as failing many Black musicians.","concepts":["forced integration","representation loss","institutional disruption"]},
+    {"name":"American Federation of Musicians","type":"National labor federation","relevance":"Mandated merger of segregated locals under civil-rights pressure.","concepts":["national governance","integration mandate","labor regulation"]},
+    {"name":"Michigan Street Baptist Church","type":"Church / Underground Railroad site","relevance":"Freedom-history anchor near CMC and part of Michigan Street preservation geography.","concepts":["freedom corridor","faith infrastructure","heritage preservation"]},
+    {"name":"Nash House","type":"Historic house / archive / museum","relevance":"Civil-rights and community archive tied to Rev. J. Edward Nash Sr.","concepts":["archive","memory infrastructure","public history"]},
+    {"name":"Michigan Street Preservation Area","type":"Preservation district / heritage corridor","relevance":"Links CMC, Michigan Street Baptist Church, and Nash House for preservation and tourism.","concepts":["heritage corridor","cultural tourism","authenticity","urban preservation"]},
+    {"name":"Little Harlem","type":"Nightclub","relevance":"Key Buffalo jazz/nightlife node.","concepts":["nightlife ecology","performance corridor"]},
+    {"name":"Moonglow","type":"Nightclub","relevance":"Key Buffalo jazz/nightlife node.","concepts":["nightlife ecology","performance corridor"]},
+    {"name":"Town Casino","type":"Nightclub / venue","relevance":"Named as major Buffalo performance site.","concepts":["performance economy","urban entertainment district"]},
+    {"name":"Hotel Vendome","type":"Hotel / performance site","relevance":"Named as glamorous nightspot in CMC museum history segment.","concepts":["performance economy","touring infrastructure"]},
+    {"name":"Pittsburgh Local 471 / Local 60","type":"Comparative musician unions","relevance":"Direct comparison to Buffalo; Black Local 471 and white Local 60 remained separate until 1967.","concepts":["comparative governance","segregated labor","post-merger erasure"]}
+  ],
+  "concepts": [
+    {"concept":"Black labor self-governance","definition":"Black musicians created and maintained institutions that organized work, access, benefits, and representation under exclusion.","governanceIndicator":"decentralized_coordination; labor_coordination"},
+    {"concept":"Union card as access infrastructure","definition":"Union membership functioned as a credential enabling formal engagements and union wages.","governanceIndicator":"minimum_sufficient_structure"},
+    {"concept":"Forced integration / representation loss","definition":"Formal integration did not guarantee voice, work access, or institutional equity after merger.","governanceIndicator":"adaptive_governance; institutional_disruption"},
+    {"concept":"Cultural corridor / nightlife ecology","definition":"CMC operated inside a network of venues, clubs, hotels, and performance routes that structured Black cultural production.","governanceIndicator":"spatial_stewardship; relational_communication"},
+    {"concept":"Intercity touring circuit","definition":"Buffalo connected musicians to Kansas City, Chicago, Detroit, New York, Europe, and national tours.","governanceIndicator":"relational_communication; labor_mobility"},
+    {"concept":"Mentorship and apprenticeship","definition":"Young musicians learned through proximity to master musicians, jam sessions, and club culture.","governanceIndicator":"mentorship_skill_transmission"},
+    {"concept":"Mutual aid and philanthropy","definition":"Local 533 supported members and community through benefit events, charities, and social support.","governanceIndicator":"distributed_leadership; community_support"},
+    {"concept":"Urban renewal disruption","definition":"1960s neighborhood change and demolition damaged the older club/venue ecology.","governanceIndicator":"spatial_disruption"},
+    {"concept":"Heritage preservation and cultural tourism","definition":"CMC, Michigan Street Baptist Church, and Nash House are framed as preservation/tourism anchors.","governanceIndicator":"institutional_continuity; memory_infrastructure"},
+    {"concept":"Black women’s archival recovery","definition":"Uncrowned Queens documents Black women’s community-building contributions otherwise excluded from dominant histories.","governanceIndicator":"memory_infrastructure; distributed_leadership"}
+  ],
+  "llmPrompt": "You are a research assistant supporting a digital humanities and urban studies project on the Colored Musicians Club, Local 533, and Buffalo's Michigan Street Corridor.\n\nAnalyze the provided transcript. Do not invent facts. Extract only information grounded in the transcript. If caption wording is unclear, mark confidence as Low or Medium and add a verification note.\n\nReturn:\n1. Executive summary\n2. Video/segment summary\n3. Key people table: name, role, timestamp, evidence/paraphrase, confidence, verification note\n4. Key institutions table: institution, type, location if mentioned, role in Black cultural/governance infrastructure, confidence\n5. Urban studies concepts table: concept, definition in this transcript, evidence, related governance indicator\n6. Dataset-ready records with fields:\n   source_video, timestamp, entity_type, entity_name, quote_or_paraphrase, governance_indicator, urban_studies_concept, research_note, confidence\n7. Pittsburgh/Buffalo comparative leads, especially references to Local 471, Local 60, AFM merger, Black musical corridors, labor mobility, and institutional erasure.\n\nUse dissertation-aligned language: decentralized coordination, minimum sufficient structure, distributed leadership, adaptive governance, relational communication, labor coordination, mentorship/skill transmission, institutional continuity, spatial stewardship, and memory infrastructure."
+}
