@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Colored Musicians Club LLM Research App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Buffalo • Local 533 • Michigan Street Corridor</p>
+      <h1>Colored Musicians Club LLM Research App</h1>
+      <p class="lede">A transcript-driven dashboard for extracting people, institutions, and urban studies concepts from Colored Musicians Club video material.</p>
+      <div class="hero-actions">
+        <a href="#llm" class="button primary">Open LLM workspace</a>
+        <a href="data/cmc-data.json" class="button secondary">View JSON dataset</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel summary-panel">
+      <div>
+        <h2>Research frame</h2>
+        <p id="sourceNote"></p>
+        <p>The working interpretation treats the Colored Musicians Club and Local 533 as Black cultural, labor, and governance infrastructure—not just as a music venue.</p>
+      </div>
+      <div class="stat-grid">
+        <div class="stat"><span id="videoCount">0</span><small>Video/segment summaries</small></div>
+        <div class="stat"><span id="peopleCount">0</span><small>People extracted</small></div>
+        <div class="stat"><span id="institutionCount">0</span><small>Institutions extracted</small></div>
+        <div class="stat"><span id="conceptCount">0</span><small>Urban concepts</small></div>
+      </div>
+    </section>
+
+    <section class="toolbar panel">
+      <label for="searchInput">Search corpus notes</label>
+      <input id="searchInput" type="search" placeholder="Try Local 533, Local 92, Michigan Street, urban renewal, mentorship…" />
+    </section>
+
+    <section class="grid two">
+      <div class="panel">
+        <h2>Video summaries</h2>
+        <div id="videoCards" class="card-stack"></div>
+      </div>
+      <div class="panel">
+        <h2>Urban studies concepts</h2>
+        <div id="conceptCards" class="card-stack"></div>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <div class="panel">
+        <h2>Key people</h2>
+        <div id="peopleTable" class="table-wrap"></div>
+      </div>
+      <div class="panel">
+        <h2>Key institutions</h2>
+        <div id="institutionTable" class="table-wrap"></div>
+      </div>
+    </section>
+
+    <section id="llm" class="panel llm-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LLM workspace</p>
+          <h2>Prompt builder + optional local model call</h2>
+        </div>
+        <button id="copyPrompt" class="button secondary">Copy prompt</button>
+      </div>
+      <textarea id="promptBox" rows="14"></textarea>
+      <div class="llm-controls">
+        <button id="runModel" class="button primary">Run local LLM extraction</button>
+        <span class="hint">Requires <code>npm start</code> and a local <code>.env</code> API key. GitHub Pages mode still works as a dashboard.</span>
+      </div>
+      <pre id="llmOutput" class="output">Model output will appear here.</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Transcript-derived research layer. Verify caption-noisy names, dates, and claims against archival sources before final dataset entry.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
