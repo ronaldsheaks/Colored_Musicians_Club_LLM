@@ -70,8 +70,6 @@ function render(data, query = '') {
     { key: 'relevance', label: 'Relevance' },
     { key: 'concepts', label: 'Concepts' }
   ]);
-
-  $('#promptBox').value = `${data.llmPrompt}\n\nCurrent structured context:\n${JSON.stringify({ videos, people, institutions, concepts }, null, 2)}`;
 }
 
 async function init() {
@@ -80,36 +78,6 @@ async function init() {
   render(appData);
 
   $('#searchInput').addEventListener('input', event => render(appData, event.target.value));
-
-  $('#copyPrompt').addEventListener('click', async () => {
-    await navigator.clipboard.writeText($('#promptBox').value);
-    $('#copyPrompt').textContent = 'Copied';
-    setTimeout(() => $('#copyPrompt').textContent = 'Copy prompt', 1200);
-  });
-
-  $('#runModel').addEventListener('click', runLocalModel);
-}
-
-async function runLocalModel() {
-  const output = $('#llmOutput');
-  output.textContent = 'Running local model call...';
-
-  try {
-    const response = await fetch('/api/analyze', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt: $('#promptBox').value })
-    });
-
-    if (!response.ok) {
-      throw new Error(`Server returned ${response.status}`);
-    }
-
-    const data = await response.json();
-    output.textContent = data.output || JSON.stringify(data, null, 2);
-  } catch (error) {
-    output.textContent = `Local LLM backend not available.\n\nRun npm install, copy .env.example to .env, add your API key, then run npm start.\n\nDetails: ${error.message}`;
-  }
 }
 
 init().catch(error => {
