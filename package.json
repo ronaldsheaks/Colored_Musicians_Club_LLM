@@ -1,0 +1,14 @@
+{
+  "name": "colored-musicians-club-llm",
+  "version": "1.0.0",
+  "description": "Colored Musicians Club transcript research dashboard with optional local LLM backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@openai/openai": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
